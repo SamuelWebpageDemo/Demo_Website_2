@@ -30,6 +30,13 @@ const Wrapper = (props) => {
         <FormattedMessage id="app.all" defaultMessage="All Locations"/>
     )
 
+    //pass the data from select events to blank pages
+    const [pageDetails, setPageDetails] = useState({
+        img:"",
+        title:"",
+        content:""
+    })
+
     const selectLang = (e) => {
         const newLocale = e.target.value
         setLocale(newLocale)
@@ -42,7 +49,7 @@ const Wrapper = (props) => {
 
     return (
         <>
-        <Context.Provider value = {{locale, setLocale, selectLang, setMessages, location, setLocation}}>
+        <Context.Provider value = {{locale, setLocale, selectLang, setMessages, location, setLocation, pageDetails, setPageDetails}}>
             <IntlProvider messages={messages} locale={locale}>
                 {props.children}
             </IntlProvider>

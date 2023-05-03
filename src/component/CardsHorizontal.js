@@ -53,14 +53,16 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
-import React, {useContext} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import { Context } from '../hooks/Wrapper';
 import { useNavigate } from 'react-router-dom';
+import useWIndowSize from '../hooks/useWIndowSize';
 
 function CardsHorizontal(props) {
 
   const context = useContext(Context)
   const navigate = useNavigate()
+  const size = useWIndowSize()
 
   const handleClick = (e)=>{
     context.setPageDetails({
@@ -72,19 +74,31 @@ function CardsHorizontal(props) {
     navigate("/eventDetails")
   }
 
+  const [cardPicLoc, setCardPicLoc] = useState("left")
+  const [showContent, setShowContent] = useState(true)
+  const [cardHeight, setCardHeight] = useState(true)
+
+  useEffect(()=>{
+    size.screenDim.width <= 760 ? setCardPicLoc("top"):setCardPicLoc("left")
+
+    size.screenDim.width <= 760 ? setShowContent(false):setShowContent(true)
+
+    size.screenDim.width <= 760 ? setCardHeight(false):setCardHeight(true)
+  },[size])
+
   return (
     <Container>
-      <Card style={{ width: '100%', height: '305px' }} border="primary">
+      <Card style={{ width: '100%', height: cardHeight ? '305px' : 'auto' }} border="primary">
         <Card.Body>
           <Row>
-            <Col sm={4}>
-              <Card.Img variant="left" src={props.img} style={{height: '100%', objectFit: 'cover'}} />
+            <Col sm={4} xs={6}>
+              <Card.Img variant={cardPicLoc} src={props.img} style={{height: '90%', objectFit: 'cover'}} />
             </Col>
             <Col sm={8}>
               <Card.Title><p class="font-bold">{props.title}</p></Card.Title>
-              <Card.Text class="line-clamp-4">
+              {showContent&&<Card.Text class="line-clamp-4">
                 {props.content}
-              </Card.Text>
+              </Card.Text>}
               <Button onClick={handleClick} variant="primary">{props.buttonText}</Button>
             </Col>
           </Row>

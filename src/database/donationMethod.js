@@ -30,9 +30,9 @@ export const data = [
                             </Row>
                             {/* account name details */}
                             <Row>
-                                <Col className={detailText}>Good Neighbour Church England</Col>
+                                <Col className={detailText}>Demo Account Name</Col>
                                 <Col className={copyButton}>
-                                    <Button className="whitespace-nowrap" variant="primary" onClick={() => {navigator.clipboard.writeText("Good Neighbour Church England")}}>
+                                    <Button className="whitespace-nowrap" variant="primary" onClick={() => {navigator.clipboard.writeText("Demo Account Name")}}>
                                         <FormattedMessage id="app.copy" defaultMessage="Copy"/>
                                     </Button>
                                 </Col>
@@ -46,9 +46,9 @@ export const data = [
                             </Row>
                             {/* sort code details                             */}
                             <Row>
-                                <Col className={detailText}>60-13-14</Col>
+                                <Col className={detailText}>00-00-00</Col>
                                 <Col className={copyButton}>
-                                    <Button className="whitespace-nowrap" variant="primary" onClick={() => {navigator.clipboard.writeText("60-13-14")}}>
+                                    <Button className="whitespace-nowrap" variant="primary" onClick={() => {navigator.clipboard.writeText("00-00-00")}}>
                                         <FormattedMessage id="app.copy" defaultMessage="Copy"/>
                                     </Button>     
                                 </Col>                              
@@ -62,9 +62,9 @@ export const data = [
                             </Row>
                             {/* account number details                             */}
                             <Row>
-                                <Col className={detailText}>50140620</Col>
+                                <Col className={detailText}>88888888</Col>
                                 <Col className={copyButton}>
-                                    <Button className="whitespace-nowrap" variant="primary" onClick={() => {navigator.clipboard.writeText("50140620")}}>
+                                    <Button className="whitespace-nowrap" variant="primary" onClick={() => {navigator.clipboard.writeText("88888888")}}>
                                         <FormattedMessage id="app.copy" defaultMessage="Copy"/>
                                     </Button>     
                                 </Col>                              
@@ -79,7 +79,7 @@ export const data = [
         titleZH:"通過 Go Get Funding 捐款",
         logo:GoGetFundLogo,
         content: <FormattedMessage id="app.singleDonate" defaultMessage="For Single Donation"/>,
-        link:"https://gogetfunding.com/good-neighbour-church-england"
+        link:"https://gogetfunding.com/"
     },
     {
         id:2, 
@@ -87,7 +87,7 @@ export const data = [
         titleZH:"通過 Patreon 捐款",
         logo:PatreonLogo,
         content:<FormattedMessage id="app.monthDonate" defaultMessage="For Monthly Donation"/>,
-        link:"https://www.patreon.com/englandgnc"
+        link:"https://www.patreon.com/"
     },
 
 ]

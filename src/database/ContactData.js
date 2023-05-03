@@ -17,14 +17,14 @@ export const ContactLogo = [
         id:0,
         name:"E-mail",
         contactImage:email,
-        directLink:"mailto:englandgnc@gmail.com",
+        directLink:"mailto:XXX@gmail.com",
         popupWord:""
     },
     {
         id:1,
         name:"instagram",
         contactImage:instagram,
-        directLink:"https://www.instagram.com/englandgnc/",
+        directLink:"https://www.instagram.com/",
         popupWord:""
     },
     {
@@ -32,27 +32,27 @@ export const ContactLogo = [
         name:"telegram",
         contactImage:telelgram,
         directLink:"",
-        popupWord:"@Englandgnc"
+        popupWord:"@Demo"
     },
     {
         id:2,
         name:"tgChannel",
         contactImage:tgChannel,
-        directLink:"https://t.me/enggnc/",
+        directLink:"https://t.me/",
         popupWord:""
     },
     {
         id:3,
         name:"twitter",
         contactImage:twitter,
-        directLink:"https://twitter.com/EnglandGoodNei1/",
+        directLink:"https://twitter.com/",
         popupWord:""        
     },
     {
         id:4,
         name:"youtube",
         contactImage:youtube,
-        directLink:"https://www.youtube.com/c/englandgnc/",
+        directLink:"https://www.youtube.com",
         popupWord:""         
     }
 ]
@@ -66,11 +66,11 @@ export const ContactAddress = [
         location: <FormattedMessage id="app.manchester" defaultMessage="Manchester"/>,
         pic:ManchesterMap,
         address:    <div>
-                        <p className={addressStyle}>Second Floor</p>
-                        <p className={addressStyle}>Swan Building</p>
-                        <p className={addressStyle}>20 Swan Street</p>
+                        <p className={addressStyle}>Demo Floor</p>
+                        <p className={addressStyle}>Demo Building</p>
+                        <p className={addressStyle}>Demo Street</p>
                         <p className={addressStyle}>Manchester</p>
-                        <p className={addressStyle}>M4 5JW</p>
+                        <p className={addressStyle}>M8 8KK</p>
                     </div>,
     },
     {
@@ -78,11 +78,11 @@ export const ContactAddress = [
         location:<FormattedMessage id="app.london" defaultMessage="London"/>,
         pic:LondonMap,
         address:    <div>
-                        <p className={addressStyle}>Ground Floor</p>
-                        <p className={addressStyle}>15 Risborough Street</p>
+                        <p className={addressStyle}>Example Floor</p>
+                        <p className={addressStyle}>Example Building</p>
+                        <p className={addressStyle}>Example Street</p>
                         <p className={addressStyle}>London</p>
-                        <p className={addressStyle}></p>
-                        <p className={addressStyle}>SE1 0HG</p>
+                        <p className={addressStyle}>L8 8KK</p>
                     </div>
     },
     {
@@ -90,11 +90,11 @@ export const ContactAddress = [
         location:<FormattedMessage id="app.birmingham" defaultMessage="Birmingham"/>,
         pic:BirminghamMap,
         address:    <div>
-                        <p className={addressStyle}>8 The Wharf</p>
-                        <p className={addressStyle}>16 Bridge Street</p>
+                        <p className={addressStyle}>Test Floor</p>
+                        <p className={addressStyle}>Test Building</p>
+                        <p className={addressStyle}>Test Street</p>
                         <p className={addressStyle}>Birmingham</p>
-                        <p className={addressStyle}></p>
-                        <p className={addressStyle}>B1 2JS</p>
+                        <p className={addressStyle}>B8 8KK</p>
                     </div>
     },
     {
@@ -102,11 +102,11 @@ export const ContactAddress = [
         location:<FormattedMessage id="app.bristol" defaultMessage="Bristol"/>,
         pic:BritolMap,
         address:    <div>
-                        <p className={addressStyle}>Hope Community Church</p>
-                        <p className={addressStyle}>Hope Chapel Hill</p>
-                        <p className={addressStyle}>Hotwells</p>
+                        <p className={addressStyle}>Trial Floor</p>
+                        <p className={addressStyle}>Trial Building</p>
+                        <p className={addressStyle}>Trial Street</p>
                         <p className={addressStyle}>Bristol</p>
-                        <p className={addressStyle}>BS8 4ND</p>
+                        <p className={addressStyle}>BS8 8KK</p>
                     </div>
     },
 ]

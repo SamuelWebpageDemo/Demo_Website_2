@@ -77,9 +77,9 @@ const Footer = () => {
                   {x.address}
 
                   <MapPopUp
-                    heading={<p>{x.location} {String(context.locale).includes("en")? "Church Address":"教會地址"}</p>}
+                    heading={<p>{x.location} {String(context.locale).includes("en")? " Address":"地址"}</p>}
                     pic={x.pic} 
-                    buttonWord = {<p>{x.location}{String(context.locale).includes("en")? "Church Map":"教會地圖"}</p>}
+                    buttonWord = {<p>{x.location}{String(context.locale).includes("en")? " Map":"地圖"}</p>}
                     closeButton = {<FormattedMessage id="app.Close" defaultMessage="Close"/>}
                   />                  
                 </div>

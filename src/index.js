@@ -46,12 +46,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "../node_modules/react-bootstrap/dist/react-bootstrap"
 import "../node_modules/bootstrap/dist/css/bootstrap.css"
 import Wrapper from './hooks/Wrapper';
-import { ThemeProvider } from "@material-tailwind/react";
+//import { ThemeProvider } from "@material-tailwind/react";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 //font size of general content
-let GeneralStyle = "font-content md:leading-10 xs:leading-1 2xl:text-6xl md:text-2xl xs:text-4xl"
+let GeneralStyle = "font-content md:leading-10 xs:leading-1 2xl:text-2xl md:text-2xl xs:text-4xl"
 
 root.render(
   <Wrapper>

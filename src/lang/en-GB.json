@@ -1,7 +1,7 @@
 {
-    "app.title":"Good Neighbour Church England",
-    "app.subTitle":"Act justly, love mercy, walk humbly and continue to fight with God.",
-    "app.charityDetail":"(Charity registration No: 1195452)",
+    "app.title":"UK website template",
+    "app.subTitle":"An easy-to-use and fun website",
+    "app.charityDetail":"use React, Bootstrap and Tailwind to construct the website",
     "app.home":"Home",
     "app.activities":"Activites",
     "app.aboutUs":"About Us",
@@ -20,14 +20,17 @@
     "app.urgentDonation":"Urgently Require Donation",
     "app.socialService":"Social Service",
     "app.newsComment":"News Comment",
-    "app.churchEvents":"Church Events",
-    "app.urgent":"Urgent! ",
-    "app.donationNotice":"Church only have money to maintain 9 months operation!",
+    "app.churchEvents":"Activites",
+    "app.urgent":"Attention! ",
+    "app.donationNotice":"New Events at Manchester!",
     "app.accountNumber":"Account Number",
     "app.accountName":"Account Name",
     "app.copy":"Copy",
     "app.sortCode":"Sort Code",
     "app.singleDonate":"For One-time Donation",
     "app.monthDonate":"For Monthly Donation",
-    "app.donateNow":"Donation Now"
+    "app.donateNow":"Donation Now",
+    "app.description":"Description",
+    "app.fee":"Fee",
+    "app.clickViewMore":"Click to view more"
 }

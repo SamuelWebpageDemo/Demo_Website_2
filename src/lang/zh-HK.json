@@ -1,7 +1,7 @@
 {
-    "app.title":"英倫好鄰舍教會",
-    "app.subTitle":"讓我們行公義、好憐憫、心存謙卑，繼續爭戰。",
-    "app.charityDetail":"(英國慈善團體註冊號碼 No: 1195452)",
+    "app.title":"英國網頁樣版",
+    "app.subTitle":"一個容易使用和有趣的網站",
+    "app.charityDetail":"使用 React、Bootstrap 和 Tailwind 構建網站",
     "app.home":"主頁",
     "app.activities":"活動",
     "app.aboutUs":"關於我們",
@@ -20,14 +20,17 @@
     "app.urgentDonation":"急需捐贈",
     "app.socialService":"社會服務",
     "app.newsComment":"新聞評論",
-    "app.churchEvents":"教會活動",
-    "app.urgent":"緊急!",
-    "app.donationNotice":"教會資金只能維持9個月運作!",
+    "app.churchEvents":"活動",
+    "app.urgent":"注意!",
+    "app.donationNotice":"漫城5月新活動!",
     "app.accountNumber":"帳戶號碼",
     "app.accountName":"帳戶名稱",
     "app.copy":"複製",
     "app.sortCode":"銀行代碼",
     "app.singleDonate":"單次捐贈",
     "app.monthDonate":"每月捐款",
-    "app.donateNow":"立即捐款"
+    "app.donateNow":"立即捐款",
+    "app.description":"描述",
+    "app.fee":"費用",
+    "app.clickViewMore":"點擊閱讀更多"
 }

@@ -11,7 +11,7 @@ const DonationAlert = () => {
     <Alert variant="warning">
         <Alert.Heading>
         <div className="flex flex-row lg:h-4 xs:h-7">
-            <p className="pr-1 hover:underline cursor-pointer" onClick={(e)=>navigate("/donation")}>
+            <p className="pr-1 hover:underline cursor-pointer" onClick={(e)=>navigate("/activaties")}>
               <strong>
                 <FormattedMessage id="app.urgent"  defaultMessage="Urgent"/>
               </strong>

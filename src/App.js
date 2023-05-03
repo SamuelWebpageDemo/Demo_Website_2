@@ -7,6 +7,7 @@ import { MyCalendar } from './pages/activaties/myCalendar';
 import ResponsiveCarousel from './pages/donation/Donation';
 import Footer from './component/footer/Footer';
 import DonationAlert from './component/DonationAlert';
+import EventDetails from './pages/eventDetails/EventDetails';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/aboutUs" element={<AboutUS/>}/>
           <Route path="/activaties" element={<MyCalendar/>}/>
           <Route path="/donation" element={<ResponsiveCarousel/>}/>
+          <Route path="/eventDetails" element={<EventDetails/>}/>
         </Routes>
         <Footer/>
       </Router>
